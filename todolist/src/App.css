@@ -1,0 +1,131 @@
+/* .App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  width: 550px;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 8px;
+}
+.App h1{
+  text-align: center;
+}
+.form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 12px;
+}
+.form input[type="text"]{
+  padding: 10px;
+  width: 85%;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+.form input[type="text"]:focus{
+  outline: none;
+}
+.form button[type="submit"]{
+  background-color: #008080;
+  color: whitesmoke;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+}
+.todo_item_list{
+  display: flex;
+  flex-direction: column;
+}
+.todo_item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom:10px ;
+  
+}
+.todo_item button{
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 8px;
+
+}
+
+.todo_item button:focus{
+  outline: none;
+}
+.update{
+  background-color: green;
+  color: aliceblue;
+
+}
+.delete{
+  background-color: rgb(203, 55, 55);
+  color: aliceblue;
+}
+.item_content{
+ width: 100%;
+ padding-right: 50%;
+ color: black;
+}
+ */
+
+ *{
+  margin: 0%;
+  padding: 0%;
+  /* color: whitesmoke; */
+ }
+ .container{
+  max-width: 100%;
+  margin: auto;
+  padding: 0px 1rem;
+ }
+ h1{
+  text-align: center;
+ }
+ .top{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap:1rem ;
+ }
+ input{
+  border: none;
+  padding: 0 0.5rem;
+  outline: none;
+  width: 400px;
+  border-bottom: 3px solid black;
+ }
+ .add{
+  background-color: black;
+  color: whitesmoke;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+ }
+ .item{
+  position: relative;
+ /* left: 250px; */
+  margin-top: 2rem;
+  background-color: black;
+  color: whitesmoke;
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+  /* width: 50%;
+  display: flex; */
+  
+ }
+ .icons{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 125px;
+  display: flex;
+  /* justify-content: end; */justify-content:'right';
+  gap: 0.5rem;
+ }
+ i{
+  cursor: pointer;
+ }
